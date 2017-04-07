@@ -1,12 +1,12 @@
-<svg height="2094" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="2094" fill="#555" width="720"></rect>
+<svg height="2062" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2062" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 <tspan x="10" y="42">&gt; npmdoc-grunt-grunticon@0.0.1 test /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon</tspan>
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-06T23:59:20Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-07T00:01:38Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
 <tspan x="10" y="122">grunt-grunticon</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154"></tspan>
@@ -14,121 +14,119 @@
 <tspan x="10" y="186">c-grunt-grunticon/test.js</tspan>
 <tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-report.json \</tspan>
 <tspan x="10" y="218">to test-report</tspan>
-<tspan x="10" y="234">&gt; server listening on http-port 37574</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 54130</tspan>
 <tspan x="10" y="250">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/apidoc.htm\</tspan>
 <tspan x="10" y="266">l</tspan>
 <tspan x="10" y="282"></tspan>
 <tspan x="10" y="298"></tspan>
 <tspan x="10" y="314">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/\</tspan>
-<tspan x="10" y="330">tmp/electron.15b45b54e360.0ed92a44b1584.html</tspan>
+<tspan x="10" y="330">tmp/electron.15b45b768b30.cdc24ee56995d.html</tspan>
 <tspan x="10" y="346"></tspan>
 <tspan x="10" y="362">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
 <tspan x="10" y="378">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
 <tspan x="10" y="394">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
 <tspan x="10" y="410"></tspan>
 <tspan x="10" y="426">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/\</tspan>
-<tspan x="10" y="442">tmp/electron.15b45b54e5d0.61620984d03e2.html</tspan>
+<tspan x="10" y="442">tmp/electron.15b45b768d80.5427766e7c933.html</tspan>
 <tspan x="10" y="458"></tspan>
 <tspan x="10" y="474">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="490">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="506">merging file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-report.json \</tspan>
-<tspan x="10" y="522">to test-report</tspan>
-<tspan x="10" y="538">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="554">merging file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-report.json \</tspan>
-<tspan x="10" y="570">to test-report</tspan>
-<tspan x="10" y="586">[4993:0406/235922:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="602">[4993:0406/235922:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="618">&gt; [5020:0406/235922:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple thread\</tspan>
-<tspan x="10" y="634">s in process gpu-process. </tspan>
-<tspan x="10" y="650">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="666">server listening on http-port 57193</tspan>
-<tspan x="10" y="682">[4989:0406/235922:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="698">[4989:0406/235922:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="714">[4993:0406/235922:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="730">[5047:0406/235922:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
-<tspan x="10" y="746">in process gpu-process. </tspan>
-<tspan x="10" y="762">[4989:0406/235922:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="506">&gt; server listening on http-port 35607</tspan>
+<tspan x="10" y="522">merging file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-report.json \</tspan>
+<tspan x="10" y="538">to test-report</tspan>
+<tspan x="10" y="554">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="570">[6892:0407/000140:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="586">[6892:0407/000140:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="602">merging file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-report.json \</tspan>
+<tspan x="10" y="618">to test-report</tspan>
+<tspan x="10" y="634">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="650">[6889:0407/000140:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="666">[6889:0407/000140:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="682">[6923:0407/000140:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="698">in process gpu-process. </tspan>
+<tspan x="10" y="714">[6942:0407/000140:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="730">in process gpu-process. </tspan>
+<tspan x="10" y="746">[6892:0407/000140:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="762">[6889:0407/000140:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
 <tspan x="10" y="778"></tspan>
-<tspan x="10" y="794">browserTest - opened url http://127.0.0.1:37574?modeTest=1</tspan>
+<tspan x="10" y="794">browserTest - opened url http://127.0.0.1:54130?modeTest=1</tspan>
 <tspan x="10" y="810"></tspan>
 <tspan x="10" y="826"></tspan>
 <tspan x="10" y="842">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/apidoc.\</tspan>
 <tspan x="10" y="858">html</tspan>
 <tspan x="10" y="874"></tspan>
-<tspan x="10" y="890">[4993:0406/235924:INFO:CONSOLE(250)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="890">[6892:0407/000142:INFO:CONSOLE(250)] "----------|-----------|-----------|-----------|-----------\</tspan>
 <tspan x="10" y="906">|</tspan>
 <tspan x="10" y="922">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 <tspan x="10" y="938">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="954">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="970">All files |       100 |       100 |       100 |       100 |</tspan>
 <tspan x="10" y="986">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1002">", source: file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/electron.15b45b54e5d\</tspan>
-<tspan x="10" y="1018">0.61620984d03e2.html (250)</tspan>
-<tspan x="10" y="1034">[4993:0406/235924:INFO:CONSOLE(250)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
-<tspan x="10" y="1050">l", source: file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/electron.15b45b54e5\</tspan>
-<tspan x="10" y="1066">d0.61620984d03e2.html (250)</tspan>
+<tspan x="10" y="1002">", source: file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/electron.15b45b768d8\</tspan>
+<tspan x="10" y="1018">0.5427766e7c933.html (250)</tspan>
+<tspan x="10" y="1034">[6892:0407/000142:INFO:CONSOLE(250)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="1050">l", source: file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/electron.15b45b768d\</tspan>
+<tspan x="10" y="1066">80.5427766e7c933.html (250)</tspan>
 <tspan x="10" y="1082">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="1098"></tspan>
 <tspan x="10" y="1114">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon\</tspan>
 <tspan x="10" y="1130">/tmp/build/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-g\</tspan>
 <tspan x="10" y="1146">runticon_2Ftmp_2Fbuild_2Fapidoc.html.png</tspan>
 <tspan x="10" y="1162"></tspan>
-<tspan x="10" y="1178">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon\</tspan>
-<tspan x="10" y="1194">/tmp/build/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-g\</tspan>
-<tspan x="10" y="1210">runticon_2Ftmp_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="1178"></tspan>
+<tspan x="10" y="1194">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon\</tspan>
+<tspan x="10" y="1210">/tmp/build/screenCapture.npmTest.browser..png</tspan>
 <tspan x="10" y="1226"></tspan>
 <tspan x="10" y="1242">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon\</tspan>
-<tspan x="10" y="1258">/tmp/build/screenCapture.npmTest.browser..png</tspan>
-<tspan x="10" y="1274"></tspan>
-<tspan x="10" y="1290"></tspan>
-<tspan x="10" y="1306">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/apid\</tspan>
-<tspan x="10" y="1322">oc.html</tspan>
-<tspan x="10" y="1338"></tspan>
-<tspan x="10" y="1354">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon\</tspan>
-<tspan x="10" y="1370">/tmp/build/screenCapture.npmTest.browser..html</tspan>
-<tspan x="10" y="1386">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
-<tspan x="10" y="1402">[4993:0406/235937:WARNING:ipc_message_attachment_set.cc(57)] MessageAttachmentSet destroyed with\</tspan>
-<tspan x="10" y="1418"> unconsumed descriptors: 0/1</tspan>
+<tspan x="10" y="1258">/tmp/build/screenCapture.npmTest.browser..html</tspan>
+<tspan x="10" y="1274">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon\</tspan>
+<tspan x="10" y="1290">/tmp/build/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-g\</tspan>
+<tspan x="10" y="1306">runticon_2Ftmp_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="1322"></tspan>
+<tspan x="10" y="1338">browserTest - exit-code 0 - http://127.0.0.1:54130?modeTest=1</tspan>
+<tspan x="10" y="1354"></tspan>
+<tspan x="10" y="1370"></tspan>
+<tspan x="10" y="1386">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/cov\</tspan>
+<tspan x="10" y="1402">erage.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="1418"></tspan>
 <tspan x="10" y="1434"></tspan>
-<tspan x="10" y="1450">browserTest - exit-code 0 - http://127.0.0.1:37574?modeTest=1</tspan>
-<tspan x="10" y="1466"></tspan>
+<tspan x="10" y="1450">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp\</tspan>
+<tspan x="10" y="1466">/test-report.npmTest.browser.%2F.json</tspan>
 <tspan x="10" y="1482"></tspan>
-<tspan x="10" y="1498">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/cov\</tspan>
-<tspan x="10" y="1514">erage.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="1530"></tspan>
-<tspan x="10" y="1546"></tspan>
-<tspan x="10" y="1562">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp\</tspan>
-<tspan x="10" y="1578">/test-report.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="1594"></tspan>
-<tspan x="10" y="1610">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1498">[node test-case 5 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1514"></tspan>
+<tspan x="10" y="1530">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/apid\</tspan>
+<tspan x="10" y="1546">oc.html</tspan>
+<tspan x="10" y="1562"></tspan>
+<tspan x="10" y="1578">[node test-case 6 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="1594">------------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1610">File                                |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 <tspan x="10" y="1626">------------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1642">File                                |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
-<tspan x="10" y="1658">------------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1674">   node-npmdoc-grunt-grunticon/     |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1690">      example.js                    |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1706">      lib.npmdoc_grunt_grunticon.js |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1722">      test.js                       |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1642">   node-npmdoc-grunt-grunticon/     |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1658">      example.js                    |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1674">      lib.npmdoc_grunt_grunticon.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1690">      test.js                       |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1706">------------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1722">All files                           |       100 |       100 |       100 |       100 |</tspan>
 <tspan x="10" y="1738">------------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1754">All files                           |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1770">------------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1786"></tspan>
-<tspan x="10" y="1802">created coverage file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/coverage\</tspan>
-<tspan x="10" y="1818">.html/index.html</tspan>
-<tspan x="10" y="1834">merging file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-report.json \</tspan>
-<tspan x="10" y="1850">to test-report</tspan>
-<tspan x="10" y="1866"></tspan>
-<tspan x="10" y="1882">-------------------------------------------------------</tspan>
-<tspan x="10" y="1898">| test-report - buildNpmdoc - node - linux v6.10.2 - 2017-04-06T23:59:00.095Z</tspan>
-<tspan x="10" y="1914">|   36235 ms            0 failed        6 passed      |</tspan>
-<tspan x="10" y="1930">-------------------------------------------------------</tspan>
-<tspan x="10" y="1946"></tspan>
-<tspan x="10" y="1962">created test-report file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-\</tspan>
-<tspan x="10" y="1978">report.html</tspan>
-<tspan x="10" y="1994"></tspan>
+<tspan x="10" y="1754"></tspan>
+<tspan x="10" y="1770">created coverage file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/coverage\</tspan>
+<tspan x="10" y="1786">.html/index.html</tspan>
+<tspan x="10" y="1802">merging file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-report.json \</tspan>
+<tspan x="10" y="1818">to test-report</tspan>
+<tspan x="10" y="1834"></tspan>
+<tspan x="10" y="1850">-------------------------------------------------------</tspan>
+<tspan x="10" y="1866">| test-report - buildNpmdoc - node - linux v6.10.2 - 2017-04-07T00:01:00.253Z</tspan>
+<tspan x="10" y="1882">|   54244 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="1898">-------------------------------------------------------</tspan>
+<tspan x="10" y="1914"></tspan>
+<tspan x="10" y="1930">created test-report file:///home/travis/build/npmdoc/node-npmdoc-grunt-grunticon/tmp/build/test-\</tspan>
+<tspan x="10" y="1946">report.html</tspan>
+<tspan x="10" y="1962"></tspan>
+<tspan x="10" y="1978"></tspan>
+<tspan x="10" y="1994">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="2010"></tspan>
-<tspan x="10" y="2026">npmTest - 0 failed tests</tspan>
-<tspan x="10" y="2042"></tspan>
-<tspan x="10" y="2058"></tspan>
-<tspan x="10" y="2074">[MODE_BUILD=npmTest] - 2017-04-06T23:59:39Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2026"></tspan>
+<tspan x="10" y="2042">[MODE_BUILD=npmTest] - 2017-04-07T00:01:57Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
