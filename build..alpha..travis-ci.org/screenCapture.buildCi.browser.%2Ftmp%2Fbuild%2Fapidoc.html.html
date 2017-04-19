@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/filamentgroup/grunticon"
-
-    >grunt-grunticon (v2.3.1)</a>
+    <a href="https://github.com/filamentgroup/grunticon">grunt-grunticon (v2.3.1)</a>
 </h1>
 <h4>A mystical CSS icon solution</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-grunticon">module grunt-grunticon</a><ol>
 
@@ -86,24 +79,24 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">grunt-grunticon = function (grunt) {
-	&#x22;use strict&#x22;;
+	"use strict";
 
-	var path = require( &#x22;path&#x22; );
+	var path = require( "path" );
 
 	// Project configuration.
 	grunt.initConfig({
-		pkg: grunt.file.readJSON(&#x27;package.json&#x27;),
+		pkg: grunt.file.readJSON('package.json'),
 		watch: {
-			files: &#x27;&#x3c;config:lint.files&#x3e;&#x27;,
-			tasks: &#x27;default&#x27;
+			files: '&lt;config:lint.files&gt;',
+			tasks: 'default'
 		},
 		svgmin: {
 			dist: {
 				files: [{
 					expand: true,
-					cwd: &#x27;example/svgs&#x27;,
-					src: [&#x27;*.svg&#x27;],
-					dest: &#x27;example/source&#x27;
+					cwd: 'example/svgs',
+					src: ['*.svg'],
+					dest: 'example/source'
 				}]
 			}
 		},
@@ -111,22 +104,22 @@
 			foo: {
 				files: [{
 					expand: true,
-					cwd: &#x27;example/source&#x27;,
-					src: [&#x27;**/*.svg&#x27;, &#x27;**/*.png&#x27;],
-					dest: &#x22;example/output&#x22;
+					cwd: 'example/source',
+					src: ['**/*.svg', '**/*.png'],
+					dest: "example/output"
 				}],
 				options: {
 
 					// CSS filenames
-					datasvgcss: &#x22;icons.data.svg.css&#x22;,
-					datapngcss: &#x22;icons.data.png.css&#x22;,
-					urlpngcss: &#x22;icons.fallback.css&#x22;,
+					datasvgcss: "icons.data.svg.css",
+					datapngcss: "icons.data.png.css",
+					urlpngcss: "icons.fallback.css",
 
 					// preview HTML filename
-					previewhtml: &#x22;preview.html&#x22;,
+					previewhtml: "preview.html",
 
 					// grunticon loader code snippet filename
-					loadersnippet: &#x22;grunticon.loader.js&#x22;,
+					loadersnippet: "grunticon.loader.js",
 
 					// Include loader code for SVG markup embedding
 					enhanceSVG: true,
@@ -135,32 +128,32 @@
 					corsEmbed: false,
 
 					// folder name (within dest) for png output
-					pngfolder: &#x22;png&#x22;,
+					pngfolder: "png",
 
 					// prefix for CSS classnames
-					cssprefix: &#x22;.icon-&#x22;,
+					cssprefix: ".icon-",
 
-					defaultWidth: &#x22;300px&#x22;,
-					defaultHeight: &#x22;200px&#x22;,
+					defaultWidth: "300px",
+					defaultHeight: "200px",
 
 					// define vars that can be used in filenames if desirable, like foo.colors-primary-secondary.svg
 					colors: {
-						primary: &#x22;red&#x22;,
-						secondary: &#x22;#666&#x22;
+						primary: "red",
+						secondary: "#666"
 					},
 
 					dynamicColorOnly: true,
 
-					// css file path prefix - this defaults to &#x22;/&#x22; and will be placed before the &#x22;dest&#x22; path when stylesheets are loaded.
-					// This allows root-relative referencing of the CSS. If you don&#x27;t want a prefix path, set to to &#x22;&#x22;
-					cssbasepath: &#x22;/&#x22;,
+					// css file path prefix - this defaults to "/" and will be placed before the "dest" path when stylesheets are loaded.
+					// This allows root-relative referencing of the CSS. If you don't want a prefix path, set to to ""
+					cssbasepath: "/",
 					customselectors: {
-						&#x22;cat&#x22; : [&#x22;#el-gato&#x22;],
-						&#x22;gummy-bears-2&#x22; : [&#x22;nav li a.deadly-bears:before&#x22;]
+						"cat" : ["#el-gato"],
+						"gummy-bears-2" : ["nav li a.deadly-bears:before"]
 					},
 
-					template: path.join( __dirname, &#x22;example&#x22;, &#x22;default-css.hbs&#x22; ),
-					previewTemplate: path.join( __dirname, &#x22;example&#x22;, &#x22;preview-custom.hbs&#x22; ),
+					template: path.join( __dirname, "example", "default-css.hbs" ),
+					previewTemplate: path.join( __dirname, "example", "preview-custom.hbs" ),
 
 					compressPNG: true
 
@@ -169,31 +162,31 @@
 		},
 		jshint: {
 			all: [
-				&#x27;Gruntfile.js&#x27;,
-				&#x27;tasks/**/*.js&#x27;
+				'Gruntfile.js',
+				'tasks/**/*.js'
 			],
 			options: {
-				jshintrc: &#x27;.jshintrc&#x27;
+				jshintrc: '.jshintrc'
 			}
 		},
 
     // Before generating any new files, remove any previously-created files.
 		clean: {
-			tests: [&#x27;tmp&#x27;]
+			tests: ['tmp']
 		}
 	});
 
 	// Load local tasks.
-	grunt.loadTasks(&#x27;tasks&#x27;);
+	grunt.loadTasks('tasks');
 
-	grunt.loadNpmTasks( &#x27;grunt-contrib-jshint&#x27; );
-	grunt.loadNpmTasks( &#x27;grunt-svgmin&#x27; );
+	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
+	grunt.loadNpmTasks( 'grunt-svgmin' );
 
 	// Default task.
-	grunt.registerTask(&#x27;skip-tests&#x27;, [&#x27;jshint&#x27;, &#x27;grunticon:foo&#x27;]);
-	grunt.registerTask(&#x27;travis&#x27;, [&#x27;jshint&#x27;, &#x27;svgmin&#x27;, &#x27;grunticon:foo&#x27;]);
-	grunt.registerTask(&#x27;default&#x27;, [&#x27;travis&#x27;]);
-	grunt.registerTask(&#x27;stage&#x27;, [&#x27;default&#x27;]);
+	grunt.registerTask('skip-tests', ['jshint', 'grunticon:foo']);
+	grunt.registerTask('travis', ['jshint', 'svgmin', 'grunticon:foo']);
+	grunt.registerTask('default', ['travis']);
+	grunt.registerTask('stage', ['default']);
 
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -208,3 +201,4 @@
     ]
 </div>
 </div>
+</body></html>
